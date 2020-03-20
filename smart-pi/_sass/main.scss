@@ -1,0 +1,65 @@
+@charset "utf-8";
+// Customization
+// You can easily customize Bulma with your own variables.
+// Just uncomment the following block to see the result.
+// 1. Import the initial variables
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+
+
+
+// 2. Set your own initial variables
+// Update the sans-serif font family
+$family-sans-serif: 'Montserrat', sans-serif;
+// 3. Set the derived variables
+// Use the new pink as the primary color
+$primary-text: #fff;
+$purpleish: #845ec0;
+$highlight: #b39adb;
+$sub: #DFAA96;
+$magentaish: #E04D60;
+$warning: $magentaish;
+$primary: $purpleish;
+$title-color: $primary-text;
+$subtitle-color: $sub;
+$subtitle-strong-color: $highlight;
+$column-gap: 0.75rem;
+// 4. Import the rest of Bulma
+@import "../node_modules/bulma/bulma";
+
+// Import Extensions
+@import "_sass/extensions/_all.sass";
+html {
+    background: linear-gradient(to top, #9e44b4, #551d7a);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.navbar {
+    &.is-transparent {
+        background-color: transparent;
+        background-image: none;
+    }
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.title {
+    color: #fff;
+}
+
+.get-started {
+    margin-right: 10px;
+}
+
+.bg-1 {
+    background-image: url('../img/city.png');
+}
+
+.content-opacity {
+    opacity: 1.0;
+}

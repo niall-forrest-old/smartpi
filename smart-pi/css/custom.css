@@ -1,0 +1,861 @@
+/*CUSTOM CSS*/
+
+
+/*General CSS Rules*/
+
+body {
+    margin: 0;
+}
+
+html {
+    background: linear-gradient(to top, #9e44b4, #551d7a);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: 0;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 30px;
+}
+
+.navbar {
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+@media (max-width:629px) {
+    .navbar {
+        margin-top: 30px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
+}
+
+.navbar.is-transparent {
+    background-color: transparent;
+    background-image: none;
+}
+
+@media screen and (max-width: 1023px) {
+    .navbar-menu {
+        background-color: #643186 !important;
+        box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1) !important;
+        padding: 0.5rem 0 !important;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .navbar-item:hover {
+        background-color: #9c67c0 !important;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    a.navbar-item:hover {
+        color: white;
+    }
+}
+
+.title {
+    color: #fff;
+}
+
+.get-started {
+    margin-right: 10px;
+}
+
+.bg-1 {
+    background-image: url("../img/city.png");
+    background-repeat: repeat-y;
+}
+
+.full-width-center {
+    width: 100%;
+    text-align: center;
+}
+
+.center-button {
+    top: 50%;
+    left: 55%;
+}
+
+.button-margin {
+    margin-left: 25px;
+}
+
+.content-opacity {
+    opacity: 1.0;
+}
+
+#particles-js {
+    background: #551d7a;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    top: 0;
+}
+
+canvas {
+    display: block;
+}
+
+iframe {
+    height: 350px !important;
+}
+
+.smart-box {
+    border-radius: 25px;
+    border-width: 3px;
+    padding: 50px 30px 30px 20px;
+    height: 400px;
+    background: rgb(97, 59, 235, 0.6);
+    position: relative;
+}
+
+.profile-container {
+    border-radius: 25px;
+    border-width: 3px;
+    padding: 25px 30px 30px 20px;
+    height: 320px;
+    background: rgba(159, 22, 177, 0.5);
+    position: relative;
+    border: 5px solid #b441c4;
+}
+
+.profile-ach {
+    width: 585px !important;
+}
+
+.profile-ach .achievement-img {
+    margin: 10px;
+}
+
+.profile-ach-close {
+    left: 40%;
+}
+
+.button-top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #FF9F1C;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    border: none;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.progress-round {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #ca3da0;
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+    border: 4px solid #FF9F1C;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.profile-text {
+    color: #fff;
+}
+
+.profile-continue {
+    z-index: 5;
+}
+
+.profile-section {
+    padding-top: 100px !important;
+}
+
+.smart-container {
+    top: 20px;
+}
+
+.round-button {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background: linear-gradient(to top, #7844b4, #551d7a);
+    text-decoration: none;
+    border: none;
+}
+
+.float-bottom {
+    position: absolute;
+    bottom: 20px;
+    padding-right: 10px;
+}
+
+.content-opacity {
+    opacity: 1.0;
+    font-size: 50px;
+}
+
+.is-yellow {
+    background-color: #FF9F1C;
+    color: #FFF !important;
+    border: none;
+}
+
+.timeline-marker-yellow {
+    background-color: #FF9F1C !important;
+    border-color: #FF9F1C !important;
+}
+
+.playful-font {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 50px !important;
+    color: #FF9F1C !important;
+}
+
+.playful-font-white {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 60px !important;
+    color: #FFF !important;
+}
+
+.playful-font-medium {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 50px !important;
+    color: #FFF !important;
+}
+
+.playful-font-small {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 20px !important;
+    color: #FF9F1C !important;
+}
+
+.playful-font-button {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 22px !important;
+    color: #fff !important;
+}
+
+.playful-font-info {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 20px !important;
+    color: #ffffff;
+}
+
+.font-info {
+    color: #ca108c !important;
+}
+
+.info-bg {
+    background-color: #ca108c;
+    border: none;
+    border-radius: 25px;
+    min-height: 315px;
+}
+
+.example-bg {
+    background-color: #ca108c;
+    border: none;
+    border-radius: 25px;
+    height: auto;
+    margin: 10px;
+    padding: 15px;
+}
+
+.playful-font-progress {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 19px !important;
+    color: #fff !important;
+    padding-top: 4px;
+}
+
+.playful-font-progress-1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 24px !important;
+    color: #fff !important;
+    width: 50px;
+    display: inline-block;
+}
+
+.playful-font-lesson {
+    font-family: 'Chelsea Market', cursive;
+    color: #FF9F1C !important;
+    font-size: 24px !important;
+    text-align: left !important;
+    margin-bottom: 10px;
+}
+
+.or-margin {
+    margin-bottom: 0.75rem;
+}
+
+.i-space {
+    padding-right: 10px;
+}
+
+.hero-pos {
+    height: 85vh;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    bottom: 50px;
+}
+
+.profile-banner {
+    background-image: url("../smartpi/img/profile-banner.png") !important;
+    background-size: cover !important;
+}
+
+@media (max-width:629px) {
+    img#removeimage {
+        display: none;
+    }
+}
+
+@media (max-width:629px) {
+    .mobile-button-spacing {
+        margin-bottom: 15px;
+    }
+}
+
+.title-margin {
+    margin-bottom: 40px !important;
+}
+
+.section-3 {
+    margin-bottom: 15px;
+}
+
+.footer {
+    padding: 50px 50px 50px 50px !important;
+    background: #551d7a !important;
+}
+
+.footer-small-text {
+    margin-top: 35px;
+}
+
+
+/*Lesson CSS*/
+
+.lesson-content-right {
+    border-radius: 25px;
+    padding: 30px !important;
+    background: rgba(141, 59, 235, 0.6) !important;
+    width: 1000px;
+    margin-right: 60px;
+    margin-left: 60px;
+    color: #fff !important;
+}
+
+.lesson-content-left {
+    border-radius: 25px;
+    padding: 30px !important;
+    background: rgba(141, 59, 235, 0.6) !important;
+    margin-right: 60px;
+    margin-left: 60px;
+    color: #fff !important;
+}
+
+.timeline-item:nth-of-type(2n) .timeline-content {
+    text-align: left !important;
+    align-items: flex-start !important;
+}
+
+.step-title {
+    padding-bottom: 30px;
+}
+
+.tag {
+    border-radius: 30px !important;
+}
+
+.progress-padding {
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+.progress-padding-profile {
+    padding-top: 200px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+}
+
+.progress-float {
+    float: left;
+}
+
+.progress-bar {
+    padding: 15px 50px 15px 50px;
+    border-radius: 50px;
+    background: linear-gradient(to right, #551d7a, #642092);
+    margin-bottom: 45px;
+}
+
+.lesson-btn-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.important-info {
+    background: #FF9F1C;
+    border-radius: 25px;
+    border-width: 0px;
+    padding: 25px 30px 30px 20px;
+    position: relative;
+    border: none;
+    font-weight: 600;
+}
+
+.important-info-reg {
+    background: #FF9F1C;
+    border-radius: 25px;
+    border-width: 0px;
+    padding: 25px 30px 30px 20px;
+    position: relative;
+    border: none;
+    width: 100%;
+}
+
+.is-bright-yellow {
+    background: #ffdd57;
+}
+
+.lesson-img {
+    text-align: center;
+}
+
+.img-radius {
+    border: none !important;
+    border-radius: 15px !important;
+}
+
+.quiz-icon {
+    float: right !important;
+    position: absolute !important;
+    right: 10px !important;
+}
+
+#nextstepbtn.button strong {
+    color: #fff;
+}
+
+.anstoggle {
+    width: 100%;
+}
+
+mark {
+        background-color: #FF9F1C;
+        border: none;
+        padding:3px 5px 3px 5px;
+        border-radius: 5px;
+        color: #FFF;
+        cursor: pointer;
+        font-family: 'Chelsea Market', cursive;
+}
+
+mark a{
+    color: #C60085 !important;
+    text-decoration: none !important;
+}
+
+code {
+    color: black;
+    border: none;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.list-indent {
+    margin-left: 30px;
+}
+
+
+.smart-nyc {
+    width: 185px;
+    height: 115px;
+    background: url("../smartpi/img/newyork.png") no-repeat;
+    display: inline-block
+}
+
+.smart-nyc:hover {
+    background: url("../smartpi/img/newyork-hover.png") no-repeat;
+}
+
+/**MODAL CSS**/
+
+.modal-card-head {
+    border-bottom: 4px solid #ff9f1c !important;
+    background-color: #764cb9;
+
+}
+
+.modal-card-title {
+    color: #fff;
+    font-family: 'Chelsea Market', cursive;
+}
+
+.modal-card-body {
+    background-color: #cbb5ef !important;
+}
+
+.modal-card-foot {
+    background-color: #764cb9 !important;
+    border-top: 4px solid #ff9f1c !important;
+}
+
+.achievement-img {
+    margin-right: 6px;
+}
+
+
+
+/**Progress bar Chrome styling**/
+
+progress::-webkit-progress-bar {
+    background-color: #b381d4 !important;
+    width: 100% !important;
+}
+
+progress {
+    background-color: #b381d4 !important;
+    width: 95% !important;
+    display: inline-block !important;
+    margin-bottom: 3px !important;
+}
+
+progress::-webkit-progress-value {
+    background-color: #FF9F1C !important;
+}
+
+
+/**Progress bar Firefox styling**/
+
+progress::-moz-progress-bar {
+    background-color: #FF9F1C !important;
+}
+
+
+/**Progress Bar IE/Edge styling**/
+
+progress {
+    background-color: #FF9F1C !important;
+}
+
+
+/**Quiz CSS**/
+
+.quiz-button-btm {
+    margin-bottom: 5px !important;
+}
+
+
+/*Nav Link underline animation*/
+
+.underline {
+    position: relative;
+    color: #FF9F1C;
+    text-decoration: none;
+}
+
+.underline:hover {
+    color: #FF9F1C;
+}
+
+.underline:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #FF9F1C;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.underline:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+
+/*Button Animations*/
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+/**Icon Animation**/
+
+.hvr-icon-down {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.hvr-icon-down .hvr-icon {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.hvr-icon-down:hover .hvr-icon,
+.hvr-icon-down:focus .hvr-icon,
+.hvr-icon-down:active .hvr-icon {
+    -webkit-animation-name: hvr-icon-down;
+    animation-name: hvr-icon-down;
+    -webkit-animation-duration: 0.75s;
+    animation-duration: 0.75s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+}
+
+
+/**QUIZ CSS**/
+
+.quiz-wrapper {
+    position: relative;
+    display: block;
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+    margin-right: auto;
+  }
+  .quiz-wrapper p.question-description {
+    color: white;
+    padding: 25px 20px;
+  }
+  .quiz-wrapper ul.options {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 155px;
+    list-style: none;
+    border: 4px solid #FF9F1C;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+  }
+  .quiz-wrapper ul.options li {
+    border: 1px solid transparent;
+    padding: 6px 8px;
+  }
+  .quiz-wrapper ul.options li.title {
+    background: #FF9F1C;
+    color: white;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+  }
+  .quiz-wrapper ul.options li.option {
+    display: block;
+    position: relative;
+    z-index: 40;
+    font-size: 14px;
+    cursor: grab;
+    font-family: 'Chelsea Market', cursive;
+  }
+  .quiz-wrapper .answers {
+    display: inline-block;
+    max-width: 550px;
+    font-size: 16px;
+    line-height: 1.6;
+    padding-left: 28px;
+    vertical-align: middle;
+  }
+  .quiz-wrapper .answers .target {
+    display: inline-block;
+    height: auto;
+    width: 150px;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    background: #FF9F1C;
+    margin: 6px 3px;
+  }
+  .quiz-wrapper button {
+    display: block;
+    position: relative;
+    margin: 30px auto;
+    padding: 8px;
+    background: #19286C;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    width: 150px;
+  }
+ 
+  .status {
+    display: none;
+    position: absolute;
+    z-index: 110;
+    text-align: center;
+    width: 80%;
+    top: 170px;
+    left: 65px;
+  }
+  .lb-bg {
+    display: none;
+    position: absolute;
+    z-index: 40;
+    width: 100%;
+    min-height: 365px;
+    top: 7px;
+    left: -10px;
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+    border-radius: 25px;
+
+  }
+  .status p {
+    color: #fff;
+    padding: 30px;
+  }
+
+  .status.confirm {
+      background-color: #551d7a;
+      border: none;
+      border-radius: 25px;
+      z-index: 40;
+  }
+
+  .status.deny{
+    background-color: #551d7a;
+    border: none;
+    border-radius: 25px;
+}
+
+.target-font {
+    font-family: 'Chelsea Market', cursive;
+}
+
+
+/**CSS for if there are two drag and drop quizzes on one page**/
+
+.quiz-wrapper1 {
+    position: relative;
+    display: block;
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+    margin-right: auto;
+  }
+  .quiz-wrapper1 p.question-description {
+    color: white;
+    padding: 25px 20px;
+  }
+  .quiz-wrapper1 ul.options {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 155px;
+    list-style: none;
+    border: 4px solid #FF9F1C;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+  }
+  .quiz-wrapper1 ul.options li {
+    border: 1px solid transparent;
+    padding: 6px 8px;
+  }
+  .quiz-wrapper1 ul.options li.title {
+    background: #FF9F1C;
+    color: white;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+  }
+  .quiz-wrapper1 ul.options li.option {
+    display: block;
+    position: relative;
+    z-index: 40;
+    font-size: 14px;
+    cursor: grab;
+    font-family: 'Chelsea Market', cursive;
+  }
+  .quiz-wrapper1 .answers {
+    display: inline-block;
+    max-width: 550px;
+    font-size: 16px;
+    line-height: 1.6;
+    padding-left: 28px;
+    vertical-align: middle;
+  }
+  .quiz-wrapper1 .answers .target {
+    display: inline-block;
+    height: auto;
+    width: 150px;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    background: #FF9F1C;
+    margin: 6px 3px;
+  }
+  .quiz-wrapper1 button {
+    display: block;
+    position: relative;
+    margin: 30px auto;
+    padding: 8px;
+    background: #19286C;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    width: 150px;
+  }
+  
+/**TOOLTIP CSS**/
+.tippy-tooltip {
+    text-align: center !important;
+    width: 200px;
+    background-color: #C60085;
+}
+
