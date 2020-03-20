@@ -3,7 +3,7 @@
 
 import serial, time
 from Adafruit_IO import Client
-aio = Client('niallforrest', 'aio_YOsq87ypeyKFJ6f5YkSdV5yMeqQY')
+aio = Client('', '')
 
 ser = serial.Serial('/dev/ttyUSB0')
 
